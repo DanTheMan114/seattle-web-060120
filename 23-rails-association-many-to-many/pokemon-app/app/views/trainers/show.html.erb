@@ -1,0 +1,6 @@
+<h1><%= @trainer.name%></h1>
+<h2><% @trainer.pokemons.each do |pokemon| %></h2>
+  <%= link_to pokemon.name, pokemon_path(pokemon.id) %><br>
+<% end %>
+
+<%= link_to "Choose my pokemon for my adventure!!!!", choose_pokemon_path %>
