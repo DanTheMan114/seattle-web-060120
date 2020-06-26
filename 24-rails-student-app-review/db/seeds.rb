@@ -10,9 +10,9 @@
 end
 
 10.times do
-  Student.create(name: Faker::TvShows::StrangerThings.character,
+  Student.create({name: Faker::TvShows::StrangerThings.character,
                  age: rand(0..100),
                  major: Faker::Educator.degree,
-                 instructor: Instructor.all.sample
+                 instructor: Instructor.all.sample}
                 )
 end

@@ -1,0 +1,8 @@
+<%= flash[:message] %>
+<%= form_for @student do |f| %>
+  Name: <%= f.text_field :name %>
+  Age: <%= f.text_field :age %>
+  Major: <%= f.text_field :major %>
+  <%= f.collection_select :instructor_id, Instructor.all, :id, :name %>
+  <%= f.submit %>
+<% end %>

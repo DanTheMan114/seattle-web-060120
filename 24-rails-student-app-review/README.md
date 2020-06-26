@@ -7,10 +7,27 @@ This is a practice project to help prepare you for the code challenge.
 + Form/Form Helpers
 + ActiveRecord
 + Validations
++ Relationships
+
+Build out twitter
++ 
 
 # Deliverables:
 
 * The ability to create, read, update and delete **Instructor**
+  - read
+  - I want to see a list of all the instructors (index)
+    - model
+      - class
+      - migrations
+      - Associations?
+      - seeds (this is already there)
+    - route
+      - index
+    - controller
+      - index
+    - view
+      - index
 * Instructor will have a name
 * The ability to create, read, update and delete **Student**
 * Student will have name, major and age

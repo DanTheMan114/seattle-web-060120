@@ -1,0 +1,5 @@
+<%= flash[:message] %>
+<%= form_for @instructor do |f| %>
+  Name: <%= f.text_field :name %>
+  <%= f.submit %>
+<% end %>
