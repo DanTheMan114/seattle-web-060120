@@ -1,10 +1,9 @@
 # rails-students
-
 This is a practice project to help prepare you for the code challenge.
 
 # Objectives
-+ MVC
 + REST
++ MVC
 + Form/Form Helpers
 + ActiveRecord
 + Validations
