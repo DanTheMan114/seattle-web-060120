@@ -18,4 +18,4 @@ This is a practice project to help prepare you for the code challenge.
 * Make sure instructor and student is not created without the names.
 * Make sure student's age is greater than 18 years.
 
-# OG Source Flatiron Houston Campus :) 
+### OG Source Flatiron Houston Campus :) 
