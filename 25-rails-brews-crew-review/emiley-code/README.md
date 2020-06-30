@@ -38,6 +38,8 @@ A Customer has a `customer_name`, which is a string.
 #### Ordering a brew
 * route to create a new BrewsCustomer
 * the new page should allow you to choose the brew and the customer making the order.
+  - brewsCustomer create a 
+  - collection_select: dropdown menus(ids, and the name)
 
 Now that you have created the Customer association:
 * the brew show page should display a list of all of the customers who have enjoyed that brew
@@ -69,3 +71,13 @@ end
   )
 end
 ```
+
+#### Students 
+- Danira
+- Candace
+- Gabriel
+- Joshua
+- Zana
+- Akiko
+- Steven
+- Brandon

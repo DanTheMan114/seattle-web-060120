@@ -1,0 +1,9 @@
+<h1>BREWS :D </h1>
+<% @brews.each do |brew| %>
+<p>
+  <%= link_to brew.blend_name, brew %>
+  <%# brew is the same as brew_path(brew) %> <br>
+  <%#= link_to "Delete", brew, method: :delete %> <br>
+  <%= button_to "Delete", brew, method: :delete %> <br>
+</p>
+<% end %>

@@ -1,0 +1,5 @@
+<%# byebug %>
+<h1><%= @customer.customer_name %></h1>
+<% @customer.brews.each do |b| %>
+  <%= link_to b.blend_name, brew_path(b) %>
+<% end %>
