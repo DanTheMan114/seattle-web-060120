@@ -1,0 +1,7 @@
+<div class="main">
+  <%= form_for @teacher do |f| %>
+    Username <%= f.text_field :username %>
+    Password <%= f.password_field :password %>
+    <%= f.submit "Sign Up" %>
+  <% end %>
+</div>
