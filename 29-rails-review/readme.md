@@ -1,0 +1,2 @@
+- path, make sure we get to the right page.
+- go over the edit/update/delete
