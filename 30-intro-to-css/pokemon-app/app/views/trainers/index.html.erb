@@ -1,0 +1,3 @@
+<% @trainers.each do |trainer| %>
+  <h2><%= link_to trainer.name , trainer_path(trainer.id)%></h2>
+<% end %>

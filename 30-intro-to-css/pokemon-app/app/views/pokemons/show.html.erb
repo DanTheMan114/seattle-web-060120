@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+  <img src=<%= @pokemon.image_url%> class="card-img-top" alt="pokemon">
+  <div class="card-body">
+    <h5 class="card-title"><%= @pokemon.name %></h5>
+    <p class="card-text"><%= @pokemon.level %>, <%= @pokemon.skill %>, <%= @pokemon.ability %></p>
+    <%= button_to 'Delete', pokemon_path(@pokemon), method: :delete, class: "btn btn-primary" %>
+  </div>
+</div>

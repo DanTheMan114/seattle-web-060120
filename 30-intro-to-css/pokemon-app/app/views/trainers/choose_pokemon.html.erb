@@ -1,0 +1,6 @@
+<div>
+  <%= form_for @trainer, url: create_pokemons_path , method: :post do |f|%>
+    <%= f.collection_check_boxes :pokemon_ids, Pokemon.all, :id, :name %>
+    <%= f.submit "Select Pokemon" %>
+  <% end %>
+</div>
