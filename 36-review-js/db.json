@@ -1,0 +1,27 @@
+{
+  "recipe": [
+    {
+      "id": 1,
+      "title": "Thai Green Curry with Spring Vegetables",
+      "likes": 20,
+      "image": "./assets/curry.png"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "recipeId": 1,
+      "content": "So Good!"
+    },
+    {
+      "id": 2,
+      "recipeId": 1,
+      "content": "YUM"
+    },
+    {
+      "id": 3,
+      "recipeId": 1,
+      "content": "My wife and children loved this but my dog was not a fan!"
+    }
+  ]
+}

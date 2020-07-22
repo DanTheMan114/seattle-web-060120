@@ -1,0 +1,3 @@
+{
+  "/recipe/:id": "/recipe/:id?_embed=comments"
+}
