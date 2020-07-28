@@ -6,7 +6,7 @@ Every day someone will receive a programming problem picked by another classmate
 The person designated to solve the problem in front of the cohort will write their solution on the whiteboard (or in a code editor if the cohort is remoe). Together we will discuss the solution and provide feedback for the individual. Whoever presents their solution each day gets to
 pick the next problem, the next student to solve the problem will be selected at random. The problem and solutions will be posted to this repository for reference later. 
 
-#Why?
+# Why?
 Solving Algorithm problems improve problem solving skills, use of syntax, and help you create code that is faster, easier to read and dynamic. During your job search you’ll find that some interviews may involve technical questions that include one or more algorithmic problem. Practicing daily in front of your peers gives you exposure to the problems you may encounter and experience performing these solutions in front of an audience. It’s also a lot of fun! 
 
 ## Resources
