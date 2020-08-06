@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  painting_id: MyString
+  title: MyString
+  image: MyString
+  name: MyString
+
+two:
+  painting_id: MyString
+  title: MyString
+  image: MyString
+  name: MyString
