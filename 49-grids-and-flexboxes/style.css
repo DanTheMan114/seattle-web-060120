@@ -1,0 +1,29 @@
+/* make the buttons appear/disappear */
+.hidey {
+    display: none;
+}
+
+#main {
+    height: 100vh;
+    /* display: grid;
+    grid-template-areas: 
+        "header header header header"
+        "a b c d"
+        "a b c d"
+        "a b c d"; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 10% 10% 40% 40%; */
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+#chai {
+    grid-area: header;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh
+}
+#end {
+    grid-area: a;
+}
