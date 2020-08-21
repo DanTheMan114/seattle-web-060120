@@ -1,7 +1,10 @@
 //add new cat js to html
 const form = document.querySelector('form')
 console.log(form)
-form.addEventListener('submit',(e)=> createCat(e))
+// form.addEventListener('submit',(e)=> createCat(e))
+form.addEventListener('submit',function(e) {
+    return createCat(e)
+})
 
 const fetchAll = () => {
 fetch('http://localhost:3000/cats')
